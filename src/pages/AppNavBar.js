@@ -17,6 +17,8 @@ export default function AppNavBar() {
                 <Separator />
                 <Link to="/useeffect">Use Effect Demo</Link>
                 <Separator />
+                <Link to="/users">Github Users</Link>
+                <Separator />
             </div>
         </nav>
     )

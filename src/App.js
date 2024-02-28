@@ -7,6 +7,7 @@ import CustomerPage from './pages/customerPage';
 import { BrowserRouter,Route,Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Counter from './components/customers/counter';
 import UseEffectDemo from './components/customers/useEffectDemo';
+import Users from './components/customers/Users';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" component={AboutPage}/>
         <Route path="/counter" component={Counter}/>
         <Route path="/useeffect" component={UseEffectDemo}/>
+        <Route path="/users" component={Users}/>
       </Switch>
       </BrowserRouter>
     </div>
